@@ -350,10 +350,11 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-function flipCard() {
-    const flipper = document.getElementById('flipper');
+function flipCard(flipperId) {
+    const flipper = document.getElementById(flipperId);
     flipper.style.transform = flipper.style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
-  }
+}
+
 
 
 // function flip() {

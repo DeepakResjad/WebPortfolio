@@ -6819,28 +6819,25 @@ button.bg-dark:focus {
   width: 200px;
   height: 200px;
   position: relative;
+  
+}
+.flipper {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
 }
 
-.front {
-  /* width: 100%;
-  height: 100%; */
-  /* position: absolute; */
+.front , .back {
+  
+  position: absolute;
   backface-visibility: hidden;
-  /* display: flex; */
+  display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .back {
-   /* width: 100%;
-  height: 100%; */
-  /* position: absolute; */
-  backface-visibility: hidden;
-  /* display: flex; */
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   transform: rotateY(180deg);
 }
 
@@ -6848,11 +6845,7 @@ button.bg-dark:focus {
   transform: rotateY(180deg);
 } */
 
-.flipper {
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  position: relative;
-}
+
 
 .pt-4,
 .py-4 {
