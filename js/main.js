@@ -354,32 +354,3 @@ function flipCard(flipperId) {
     const flipper = document.getElementById(flipperId);
     flipper.style.transform = flipper.style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
 }
-
-
-
-// function flip() {
-// 	var clicked = true
-// 	const flipper = document.querySelector('.flipper');
-// 	while(true)
-// 	{
-// 		flipper.style.transform = 'rotateY(180deg)';
-// 		clicked=!clicked;
-// 	}
-	
-// }
-
-// document.addEventListener('DOMContentLoaded', function () {
-//     const modeToggle = document.getElementById('mode-toggle');
-//     const toggleElement = document.getElementById('toggle-element');
-
-//     modeToggle.addEventListener('change', function () {
-//         if (modeToggle.checked) {
-//             // Dark mode
-//             toggleElement.style.color = '#fff'; // Change to the desired dark mode color
-//         } else {
-//             // Light mode
-//             toggleElement.style.color = '#000'; // Change to the desired light mode color
-//         }
-//     });
-// });
-

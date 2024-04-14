@@ -6834,10 +6834,10 @@ button.bg-dark:focus {
   
   position: absolute;
   backface-visibility: hidden;
-  /* display: flex; */
-  align-items: center;
+  display: flex;  
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .back {
